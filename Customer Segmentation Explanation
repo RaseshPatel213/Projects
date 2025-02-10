@@ -1,0 +1,47 @@
+Customer Segmentation Using RFM Analysis & K-Means Clustering 🛍️
+
+📌 Project Overview
+This project focuses on segmenting customers based on their purchasing behavior using RFM (Recency, Frequency, Monetary) Analysis and K-Means Clustering. The goal is to identify different customer groups, such as loyal customers, at-risk customers, and potential customers, to improve marketing strategies for e-commerce and retail businesses.
+
+📂 Dataset
+The dataset used is the Online Retail Dataset from the UCI Machine Learning Repository.
+
+It includes transactions of a UK-based online retailer with features like InvoiceNo, CustomerID, InvoiceDate, Quantity, UnitPrice, etc.
+
+🛠️ Technologies & Tools Used
+Python (pandas, numpy, seaborn, matplotlib, sklearn)
+Jupyter Notebook / Google Colab
+Machine Learning (RFM Analysis, K-Means Clustering)
+Data Visualization (Seaborn, Matplotlib)
+
+📊 Key Steps & Approach
+✔ Data Preprocessing: Handling missing values, feature engineering (creating TotalPrice), and data transformation.
+✔ RFM Analysis: Calculating Recency, Frequency, and Monetary values for each customer.
+✔ Customer Segmentation: Using K-Means Clustering to categorize customers into different groups.
+✔ Visualization: Scatter plots to analyze customer distribution.
+✔ Business Insights & Applications:
+
+Loyal Customers → High frequency, high spending → Offer loyalty rewards.
+At-Risk Customers → High recency, low spending → Send discount offers.
+Potential Customers → Moderate frequency & spending → Encourage repeat purchases.
+
+📸 Visualizations
+📍 Customer Segmentation Scatter Plot (Recency vs. Monetary with Clusters)
+📍 Distribution of RFM Scores
+
+🚀 How to Run the Project?
+1️⃣ Clone the repository:
+git clone https://github.com/your-username/customer-segmentation.git
+
+2️⃣ Install dependencies:
+pip install pandas numpy seaborn matplotlib scikit-learn
+
+3️⃣ Run the Jupyter Notebook:
+💡 Business Use Cases
+✔ Helps businesses personalize marketing campaigns based on customer behavior.
+✔ Assists in customer retention & loyalty programs by identifying valuable customers.
+✔ Enables targeted discounts for at-risk customers to improve engagement.
+
+🔗 References
+Online Retail Dataset: UCI Repository
+RFM Analysis: DataCamp Guide
